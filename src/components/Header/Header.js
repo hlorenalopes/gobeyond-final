@@ -12,7 +12,6 @@ const Header = () => {
             <ul>
               <li>
                 <a href='https://www.corebiz.ag/pt/about/'>a corebiz</a>
-                <div className='line'></div>
               </li>
               <li>
                 <a href='https://www.corebiz.ag/pt/#framework-title'>

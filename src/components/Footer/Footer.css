@@ -1,0 +1,106 @@
+.row-footer {
+  height: 220px;
+  width: 100%;
+  color: #000;
+}
+
+.col-footer-left {
+  background-color: #fff;
+  width: 35%;
+}
+
+.logo {
+  margin-top: 48px;
+  margin-bottom: 11.4px;
+  width: 140px;
+}
+
+.col-footer-left p {
+  font-weight: 600;
+}
+
+.icons {
+  margin-top: 45.29px;
+  margin-bottom: 62px;
+}
+
+.icons img {
+  margin-right: 12.73px;
+}
+
+.links {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 65px;
+}
+
+.links a {
+  color: #000;
+}
+
+.links a:first-of-type {
+  margin-top: 48px;
+}
+
+.line {
+  margin: 8px 0;
+  height: 1px;
+  width: 159px;
+  background-color: #707070;
+}
+
+.col-footer-right {
+  width: 65%;
+  background-color: #f4f4f4;
+}
+
+.address {
+  padding-top: 53px;
+  padding-left: 166px;
+}
+
+.address h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.address p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.col1 {
+  width: 210px;
+  margin-right: 65px;
+}
+
+.col1 p {
+  width: 202px;
+  margin-top: 16px;
+}
+
+.col2 {
+  width: 155px;
+  margin-right: 90px;
+}
+
+.col2 p,
+.col3 p,
+.col4 p {
+  margin-top: 16px;
+}
+
+.col3 {
+  width: 244px;
+  margin-right: 72px;
+}
+
+.col4 {
+  width: 204px;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
