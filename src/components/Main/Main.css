@@ -1,11 +1,21 @@
 .col-main-left {
   padding-right: 128px;
   width: 35%;
+  margin-bottom: 103.01px;
 }
 
 .col-main-right {
   align-items: flex-end;
+  justify-content: flex-end;
   width: 65%;
+  margin-bottom: 103.01px;
+}
+
+h1 {
+  margin: 84.99px 0 39px;
+  padding-top: 5px;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .btn-link {
@@ -14,8 +24,8 @@
   color: #000;
   background-color: #fff;
   border-radius: 50px;
-  height: 60px;
-  max-width: 221px;
+  height: 40px;
+  max-width: 180px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,15 +37,8 @@
   margin-left: 8px;
 }
 
-h1 {
-  margin: 84.99px 0 39px;
-  padding-top: 5px;
-  font-size: 60px;
-  font-weight: 600;
-}
-
 button {
-  margin: 107.97px 14.7px 103.01px 0;
+  margin: 107.97px 14.7px 0 0;
   width: 121.76px;
   height: 72.01px;
   min-height: 72.01px;
@@ -55,8 +58,9 @@ button:hover {
 }
 
 .bigImg {
-  width: 1127.68px;
-  height: 666.98px;
+  width: 800px;
+  height: 540px;
   border-radius: 10px;
   background-size: cover;
+  max-width: 100%;
 }
