@@ -45,6 +45,7 @@ $ yarn start
 <!-- -   **[SASS](https://sass-lang.com/)** -->
 
 - **[React](https://reactjs.org/)**
+- **[SASS](https://sass-lang.com/)**
 
 ## 🦸 Author
 
