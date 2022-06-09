@@ -42,8 +42,6 @@ $ yarn start
 
 ## 🛠 Technologies
 
-<!-- -   **[SASS](https://sass-lang.com/)** -->
-
 - **[React](https://reactjs.org/)**
 - **[SASS](https://sass-lang.com/)**
 
