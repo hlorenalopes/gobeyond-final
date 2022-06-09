@@ -2,13 +2,6 @@
 	GoBeyond Final Challenge 🚀 - 🚧 Building 🚧
 </h1>
 
-<p align="center">
- <a href="#-sobre-o-projeto">About the project</a> •
- <a href="#-como-executar-o-projeto">How to execute it</a> • 
- <a href="#-tecnologias">Technologies</a> • 
- <a href="#-autor">Author</a> • 
-</p>
-
 ## 💻 About the project
 
 The goal of the project was to create a responsive homepage for the company Corebiz using ReactJS, o HTML and CSS. The titles, images and images thumbnails from the main section should be fetched dynamically from the API https://jsonplaceholder.typicode.com. The images thumbnails are dynamic buttons.
