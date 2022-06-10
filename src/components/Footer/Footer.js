@@ -13,7 +13,7 @@ const Footer = () => {
                 alt='Logo Corebiz'
               />
               <p>direitos reservados. corebiz 2021</p>
-              <div className='row icons'>
+              <div className='row iconsRow'>
                 <a href='https://pt-br.facebook.com/corebiz.ag/'>
                   <img src='facebook.svg' alt='Facebook' />
                 </a>
@@ -21,7 +21,7 @@ const Footer = () => {
                   <img src='instagram.svg' alt='Instagram' />
                 </a>
                 <a href='https://www.linkedin.com/company/corebiz-brasil'>
-                  <img src='linkedin.svg' alt='LinkedIn' />
+                  <img src='linkedin.svg' alt='LinkedIn' class='linkedin' />
                 </a>
               </div>
             </div>
@@ -39,30 +39,27 @@ const Footer = () => {
         </div>
         <div className='col container col-footer-right'>
           <div className='row address'>
-            <div className='col col1'>
+            <div className='col colBrasil'>
               <h4>.Brasil</h4>
               <p>Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP</p>
               <p>
                 R. Ifigenia Maria de Oliveira, 3793 Jr. Piratininga Franca SP
               </p>
             </div>
-            <div className='col col2'>
+            <div className='col colArgentina'>
               <h4>.Argentina</h4>
-              <p>Soler 5518, 3 Piso C1425BYF</p>
-              <p>Palermo Hollywood CABA</p>
+              <p>Soler 5518, 3 Piso C1425BYF Palermo Hollywood CABA</p>
             </div>
-            <div className='col col3'>
+            <div className='col colMexico'>
               <h4>.México</h4>
               <p>
                 Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo,
-                11520
+                11520 Ciudad de México, CDMX
               </p>
-              <p>Ciudad de México, CDMX</p>
             </div>
-            <div className='col col4'>
+            <div className='col colChile'>
               <h4>.Chile</h4>
-              <p>Roberto del Rio 1137,</p>
-              <p>Providencia.</p>
+              <p>Roberto del Rio 1137, Providencia.</p>
             </div>
           </div>
         </div>
