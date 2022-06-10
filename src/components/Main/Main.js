@@ -31,7 +31,7 @@ const Main = () => {
             veja mais
             <img src='arrow-circle.svg' alt='Arrow Icon' />
           </a>
-          <div className='row'>
+          <div className='row rowButtons'>
             <button
               onClick={() => setActiveContent(0)}
               className={`${
