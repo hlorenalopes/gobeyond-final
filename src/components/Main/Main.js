@@ -32,36 +32,44 @@ const Main = () => {
             <img src='arrow-circle.svg' alt='Arrow Icon' />
           </a>
           <div className='row rowButtons'>
-            <button
-              onClick={() => setActiveContent(0)}
-              className={`${
-                activeContent === 0 ? 'tab-active' : 'tab-inactive'
-              }`}
-              style={{ backgroundImage: `url(${photo[0].thumbnailUrl})` }}
-            ></button>
-            <button
-              onClick={() => setActiveContent(1)}
-              className={`${
-                activeContent === 1 ? 'tab-active' : 'tab-inactive'
-              }`}
-              style={{ backgroundImage: `url(${photo[1].thumbnailUrl})` }}
-            ></button>
-            <button
-              onClick={() => setActiveContent(2)}
-              className={`${
-                activeContent === 2 ? 'tab-active' : 'tab-inactive'
-              }`}
-              style={{
-                backgroundImage: `url(${photo[2].thumbnailUrl})`,
-              }}
-            ></button>
-            <button
-              onClick={() => setActiveContent(3)}
-              className={`${
-                activeContent === 3 ? 'tab-active' : 'tab-inactive'
-              }`}
-              style={{ backgroundImage: `url(${photo[3].thumbnailUrl})` }}
-            ></button>
+            <div className='colButton'>
+              <button
+                onClick={() => setActiveContent(0)}
+                className={`${
+                  activeContent === 0 ? 'tab-active' : 'tab-inactive'
+                }`}
+                style={{ backgroundImage: `url(${photo[0].thumbnailUrl})` }}
+              ></button>
+            </div>
+            <div className='colButton'>
+              <button
+                onClick={() => setActiveContent(1)}
+                className={`${
+                  activeContent === 1 ? 'tab-active' : 'tab-inactive'
+                }`}
+                style={{ backgroundImage: `url(${photo[1].thumbnailUrl})` }}
+              ></button>
+            </div>
+            <div className='colButton'>
+              <button
+                onClick={() => setActiveContent(2)}
+                className={`${
+                  activeContent === 2 ? 'tab-active' : 'tab-inactive'
+                }`}
+                style={{
+                  backgroundImage: `url(${photo[2].thumbnailUrl})`,
+                }}
+              ></button>
+            </div>
+            <div className='colButton'>
+              <button
+                onClick={() => setActiveContent(3)}
+                className={`${
+                  activeContent === 3 ? 'tab-active' : 'tab-inactive'
+                }`}
+                style={{ backgroundImage: `url(${photo[3].thumbnailUrl})` }}
+              ></button>
+            </div>
           </div>
         </div>
         <div className='col col-main col-main-right'>

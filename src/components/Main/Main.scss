@@ -1,14 +1,24 @@
+.col-main {
+  margin-bottom: 64px;
+}
+
 .col-main-left {
   padding-right: 128px;
-  width: 35%;
-  margin-bottom: 103.01px;
 }
 
 .col-main-right {
+  width: 200%;
   align-items: flex-end;
   justify-content: flex-end;
-  width: 65%;
-  margin-bottom: 103.01px;
+}
+
+.colButton {
+  width: 25%;
+  margin-right: 14px;
+
+  &:last-of-type {
+    margin-right: 0px;
+  }
 }
 
 h1 {
@@ -39,10 +49,8 @@ h1 {
 
 button {
   margin: 107.97px 14.7px 0 0;
-  width: 121.76px;
+  width: 100%;
   height: 72.01px;
-  min-height: 72.01px;
-  min-width: 121.76px;
   border-radius: 2.5px;
   border: none;
   background-size: cover;
@@ -58,28 +66,31 @@ button {
 }
 
 .bigImg {
-  width: 800px;
+  width: 100%;
   height: 540px;
   border-radius: 10px;
   background-size: cover;
-  max-width: 100%;
+  min-width: 302px;
 }
 
 @media screen and (max-width: 768px) {
   .rowButtons {
     flex-direction: row !important;
     justify-content: space-between;
+    transform: translateY(260%);
+  }
+
+  .col-main {
+    margin-bottom: 0px;
   }
 
   .col-main-left {
     padding-right: 0px;
-    width: 100%;
     margin-bottom: 32px;
   }
 
   .col-main-right {
     width: 100%;
-    margin-bottom: 32px;
   }
 
   h1 {
@@ -89,13 +100,16 @@ button {
 
   button {
     margin: 32px 9px 0 0;
-    width: 76.57px;
     height: 45.29px;
-    min-width: 76.57px;
-    min-height: 45.29px;
 
     &:last-of-type {
       margin-right: 0;
     }
+  }
+
+  .bigImg {
+    height: 197px;
+    border-radius: 5px;
+    transform: translateY(-40%);
   }
 }
