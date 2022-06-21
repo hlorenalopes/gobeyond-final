@@ -35,7 +35,7 @@ const Main = () => {
             <div className='colButton'>
               <button
                 onClick={() => setActiveContent(0)}
-                className={`${
+                className={`thumbButton ${
                   activeContent === 0 ? 'tab-active' : 'tab-inactive'
                 }`}
                 style={{ backgroundImage: `url(${photo[0].thumbnailUrl})` }}
@@ -44,7 +44,7 @@ const Main = () => {
             <div className='colButton'>
               <button
                 onClick={() => setActiveContent(1)}
-                className={`${
+                className={`thumbButton ${
                   activeContent === 1 ? 'tab-active' : 'tab-inactive'
                 }`}
                 style={{ backgroundImage: `url(${photo[1].thumbnailUrl})` }}
@@ -53,7 +53,7 @@ const Main = () => {
             <div className='colButton'>
               <button
                 onClick={() => setActiveContent(2)}
-                className={`${
+                className={`thumbButton ${
                   activeContent === 2 ? 'tab-active' : 'tab-inactive'
                 }`}
                 style={{
@@ -64,7 +64,7 @@ const Main = () => {
             <div className='colButton'>
               <button
                 onClick={() => setActiveContent(3)}
-                className={`${
+                className={`thumbButton ${
                   activeContent === 3 ? 'tab-active' : 'tab-inactive'
                 }`}
                 style={{ backgroundImage: `url(${photo[3].thumbnailUrl})` }}
