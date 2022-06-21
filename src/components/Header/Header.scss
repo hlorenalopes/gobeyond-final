@@ -1,3 +1,7 @@
+.colNav {
+  position: relative;
+}
+
 .row-header {
   padding: 32px 0;
   justify-content: space-between;
@@ -5,6 +9,33 @@
 
 a {
   text-decoration: none;
+}
+
+.toggleMenu {
+  border: none;
+  background-color: transparent;
+  max-width: 28px;
+  max-height: 28px;
+  margin: 0;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.toggleBar {
+  width: 27px;
+  height: 2.4px;
+  background-color: #fff;
+  margin: 6px 0;
+  border-radius: 5px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 li {
@@ -26,6 +57,22 @@ li {
   }
 }
 
-.col-header {
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .logoHeader {
+    width: 100px;
+  }
+
+  .colNav {
+    align-items: center;
+    text-align: center;
+
+    li {
+      display: block;
+      margin: 12px 0;
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
 }
