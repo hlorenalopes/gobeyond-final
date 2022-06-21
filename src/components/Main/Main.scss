@@ -56,6 +56,10 @@ button {
   background-size: cover;
   cursor: pointer;
 
+  @media screen and (max-width: 1230px) {
+    height: 52px;
+  }
+
   &:hover {
     box-shadow: inset 0px 0px 0px 4px #fff;
   }
@@ -71,13 +75,29 @@ button {
   border-radius: 10px;
   background-size: cover;
   min-width: 302px;
+
+  @media screen and (max-width: 1230px) {
+    height: 420px;
+  }
+
+  @media screen and (max-width: 1050px) {
+    height: 380px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    height: 340px;
+  }
+
+  @media screen and (max-width: 950px) {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .rowButtons {
     flex-direction: row !important;
     justify-content: space-between;
-    transform: translateY(260%);
+    transform: translateY(340%);
   }
 
   .col-main {
@@ -100,7 +120,7 @@ button {
 
   button {
     margin: 32px 9px 0 0;
-    height: 45.29px;
+    height: 82px;
 
     &:last-of-type {
       margin-right: 0;
@@ -108,8 +128,23 @@ button {
   }
 
   .bigImg {
-    height: 197px;
+    height: 380px;
     border-radius: 5px;
+    transform: translateY(-30%);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .rowButtons {
+    transform: translateY(260%);
+  }
+
+  button {
+    height: 45.29px;
+  }
+
+  .bigImg {
+    height: 197px;
     transform: translateY(-40%);
   }
 }
