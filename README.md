@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	GoBeyond Final Challenge 🚀 - 🚧 Building 🚧
+	GoBeyond Final Challenge 🚀
 </h1>
 
 ## 💻 About the project
