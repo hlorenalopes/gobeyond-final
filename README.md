@@ -4,7 +4,7 @@
 
 ## 💻 About the project
 
-The goal of the project was to create a responsive homepage for the company Corebiz using ReactJS, o HTML and CSS. The titles, images and images thumbnails from the main section should be fetched dynamically from the API https://jsonplaceholder.typicode.com. The images thumbnails are dynamic buttons.
+The goal of the project was to create a responsive homepage for the company Corebiz using React.js, ES6, JSX, and CSS/SCSS. The titles, images and images thumbnails from the main section should be fetched dynamically from the API https://jsonplaceholder.typicode.com. The images thumbnails are dynamic buttons.
 
 ---
 
